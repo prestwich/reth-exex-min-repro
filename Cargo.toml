@@ -1,0 +1,24 @@
+[package]
+name = "min"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.82"
+
+[dependencies]
+eyre = "0.6.12"
+futures-util = "0.3.31"
+
+# Reth
+reth = { git = "https://github.com/paradigmxyz/reth", rev = "2fba3c0" }
+reth-chainspec = { git = "https://github.com/paradigmxyz/reth", rev = "2fba3c0" }
+reth-db = { git = "https://github.com/paradigmxyz/reth", rev = "2fba3c0" }
+reth-db-common = { git = "https://github.com/paradigmxyz/reth", rev = "2fba3c0" }
+reth-eth-wire-types = { git = "https://github.com/paradigmxyz/reth", rev = "2fba3c0" }
+reth-exex = { git = "https://github.com/paradigmxyz/reth", rev = "2fba3c0" }
+reth-exex-test-utils = { git = "https://github.com/paradigmxyz/reth", rev = "2fba3c0" }
+reth-network-api = { git = "https://github.com/paradigmxyz/reth", rev = "2fba3c0" }
+reth-network-peers = { git = "https://github.com/paradigmxyz/reth", rev = "2fba3c0" }
+reth-node-api = { git = "https://github.com/paradigmxyz/reth", rev = "2fba3c0" }
+reth-node-ethereum = { git = "https://github.com/paradigmxyz/reth", rev = "2fba3c0" }
+reth-prune-types = { git = "https://github.com/paradigmxyz/reth", rev = "2fba3c0" }
+reth-transaction-pool = { git = "https://github.com/paradigmxyz/reth", rev = "2fba3c0" }
